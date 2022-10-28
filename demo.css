@@ -1,0 +1,139 @@
+ {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  height: 70px;
+  width: 100%;
+  background: linear-gradient(#48649f, #385998);
+  border-bottom: 1px solid #253a69;
+}
+.logo {
+  position: absolute;
+  height: 63px;
+  width: 190px;
+  left: 13%;
+  padding-top: 15px;
+  font-size: x-large;
+  font-weight: bolder;
+  font-style: italic;
+  color: white;
+}
+.login-form {
+  display: flex;
+  position: absolute;
+  font-family: Verdana;
+  left: 58%;
+  top: 15px;
+}
+.login-form .email,
+.login-form .password {
+  padding-left: 10px;
+}
+.login-form .email .font,
+.login-form .password .font {
+  font-size: 13px;
+  padding-bottom: 4px;
+  color: white;
+}
+.login-form .email input,
+.login-form .password input {
+  height: 23px;
+  width: 150px;
+  padding-left: 5px;
+  border: 1px solid black;
+  outline: none;
+}
+.login_button {
+  width: 50px;
+  height: 20px;
+  margin-left: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #224285;
+  background: #2d5bba;
+  color: white;
+}
+section {
+  height: 614px;
+  width: 100%;
+  top: 800px;
+  background: linear-gradient(#fdfdfe, #eff1f6, #e3e6f0, #d6dbea);
+  font-family: verada;
+}
+.logo-body {
+  position: absolute;
+  top: 20%;
+  left: 20px;
+  margin: 0px;
+}
+.logo-body .like_font {
+  font-family: arial;
+  font-size: 20px;
+  margin-right: 50px;
+}
+.logo-body .font1 {
+  color: #083987;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.signup {
+  font-family: arial;
+  position: absolute;
+  left: 57%;
+}
+.signup .acc_crt {
+  font-size: 40px;
+  margin: 25px 0;
+}
+.signup free_hint {
+  font-size: 15px;
+  margin: -25px 5px;
+}
+.signup .signup-form input{
+    margin-top: 20px;
+    height:38px;
+    width: 180px;
+    font-size: 18px;
+    padding-left: 10px;
+    border: 1px solid silver;\
+    border-radius: 4px;
+}
+.signup .signup-form .lastname{
+    margin-left: 15px;
+}
+.signup .signup-form .email,
+.signup .signup-form  .password,
+.signup .signup-form  .password2{
+    margin-top: 20px;
+    width: 380px;
+}
+.signup .signup-form .birthdate{
+    margin-top: 15px;
+    font-size: 20px;
+    color:grey;
+}
+.signup .signup-form .month,
+.signup .signup-form  .day,
+.signup .signup-form  .year{
+    height: 28px;
+}
+.signup .signup-form  .day,
+.signup .signup-form  .year{
+    margin-left: -5px;
+}
+.signup .signup-form .bith-hint{
+    font-size: 12px;
+    padding-left:  190px;
+    margin-top: -28px;
+    width: 200px;
+}
+.signup .signup-form a{
+    text-decoration: none;
+}
+.signup .signup-form a:hover{
+    text-decoration: underline;
+}
+
+    
